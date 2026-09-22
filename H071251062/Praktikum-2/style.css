@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: darkgreen;
+    padding: 20px;
+}
+
+.navigation-style{
+    display: flex;
+    justify-content: space-between;
+    scroll-margin-top: 75px;
+}
+
+header h1{
+    color: antiquewhite;
+}
+
+header div{
+    margin: auto;
+    margin-right: 0;
+}
+
+header a{
+    color: aliceblue;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+#home{
+    display: flex;
+    align-items: center;
+    scroll-margin-top: 80px;
+}
+
+#home div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home h2{
+    margin-bottom: 16px;
+}
+
+#home p{
+    margin-bottom: 16px;
+}
+#home a:hover{
+    color: dodgerblue;
+}
+
+#tentang{
+    padding: 20px;
+    border: 0.3px solid black;
+    background-color: antiquewhite;
+    scroll-margin-top: 75px;
+}
+
+#tentang h2{
+    color: darkgreen;
+    padding-bottom: 12px;
+}
+
+#tentang p{
+    color:black;
+}
+
+#aktivitas{
+    border: 0.3px solid black;
+    background-color: antiquewhite;
+}
+#aktivitas h2{
+    color: darkgreen;
+    padding: 20px 20px;
+}
+#aktivitas ul{
+    margin-left: 40px;
+    color: darkgreen;
+    padding-bottom: 12px;
+}
+#aktivitas h2{
+    color: darkgreen;
+    padding-bottom: 12px;
+}
+
+#galeri{
+    border: 0.3px solid black;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#lokasi{
+    border: 0.3px solid black;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+#lokasi h2, h3{
+    color: green;
+    padding-top: 20px;
+}
+#informasi{
+    border: 0.3px solid black;
+    background-color: antiquewhite;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#informasi h2{
+    color: green;
+    padding-bottom: 20px;
+    
+}
+#kontak{
+    border: 0.3px solid black;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+input, select, textarea{
+    border: 0.3px solid black;
+    background-color: rgb(250, 228, 215);
+}
+
+fieldset{
+    border: 0.3px solid black;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+fieldset legend{
+    border: 0.3px solid black;
+    background-color: rgb(215, 221, 250);
+    padding: 20px;
+}
+
+footer{
+    border: 0.3px solid black;
+    background-color: antiquewhite;
+    padding-top: 100px;
+}
+
